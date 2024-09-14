@@ -1,0 +1,20 @@
+.aboutPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 10vh;
+    background-color: #a28dff;
+    color: #fff;
+    text-align: center;
+}
+
+.aboutPage input{
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+}

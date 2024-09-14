@@ -1,0 +1,10 @@
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 10vh;
+    background-color: #73c98c;
+    color: #0e0404;
+    text-align: center;
+}
