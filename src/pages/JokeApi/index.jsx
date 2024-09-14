@@ -104,7 +104,7 @@ export default function JokeApi() {
         },
       ],
     }
-
+    
     // Simula o atraso de uma requisição real
     return new Promise((resolve) => {
       setTimeout(() => {
@@ -115,7 +115,6 @@ export default function JokeApi() {
 
   async function buildCards() {
     const consulta = await getJokes()
-
     // Criando os cards com os dados mockados
     return consulta.jokes.map(joke => <Card data={joke} key={joke.id} />)
   }
